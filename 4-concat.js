@@ -1,7 +1,13 @@
-const arg1 = "c";
-const arg2 = "cool";
-const arg3 = "python";
-const arg4 = "fun";
+// const arg1 = "c";
+// const arg2 = "cool";
+// const arg3 = "python";
+// const arg4 = "fun";
+
+// console.log(arg1 + " is " + arg2);
+// console.log(arg3 + " is " + arg4);
+
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
 console.log(arg1 + " is " + arg2);
-console.log(arg3 + " is " + arg4);
+
