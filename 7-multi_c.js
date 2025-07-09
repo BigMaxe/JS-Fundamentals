@@ -1,4 +1,4 @@
-let x = parseInt(process.argv["7"]);
+let x = parseInt(process.argv["2"]);
 // let x = parseInt("7");
 
 if (isNaN(x)) {
